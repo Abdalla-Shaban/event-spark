@@ -7,7 +7,7 @@ import MobileNav from "../shared/MobileNav";
 import Logo from "./Logo";
 const Header = () => {
   return (
-    <header className="flex items-center bg-white justify-between p-5 md:px-10">
+    <header className="flex items-center bg-white justify-between min-h-[74px] p-4 md:px-10">
       <Logo />
       <SignedIn>
         <nav className="hidden md:flex items-center gap-10">
